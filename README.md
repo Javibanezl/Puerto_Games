@@ -1,0 +1,1 @@
+Este proyecto es una aplicación simple en Kotlin (en consola) que permite registrar vehículos de carga de distintos tipos (Camión, Camioneta, Drone), validando los datos ingresados y calculando el costo de envío según el tipo de transporte.
