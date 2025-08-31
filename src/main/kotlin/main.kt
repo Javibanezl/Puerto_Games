@@ -36,8 +36,8 @@ fun main(){
         } else {
             //validación antes del registro
             transporte.validar().onSuccess {
-                println("Vehículo registrado correctamente")
-
+                println("Vehículo registrado correctamente.")
+                println(transporte.descripcion())
                 println("Costo de envío: ${transporte.precioEnvio()} CLP")
             } .onFailure {
                 println("Error al registrar: ${it.message}")
